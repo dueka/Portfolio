@@ -8,7 +8,7 @@ const Header = () => (
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">
             <img
-              src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585229086/logo_nhmwko.jpg"
+              src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585246633/8b62a-hire_full-stack-developer_4_fysdjg.jpg"
               alt="logo"
               className="logo"
             />

@@ -28,7 +28,7 @@ export default function Main() {
             </div>
             <div className="col-lg-6 col-md-12 banner-image ">
               <img
-                src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585240558/8b62a-hire_full-stack-developer_1_adrqtr.jpg"
+                src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585246317/8b62a-hire_full-stack-developer_4_fm5x8i.jpg"
                 alt="banner-img"
                 className="img-fluid"
               />
