@@ -1,7 +1,8 @@
 import "../assets/styles.scss";
 import Header from "../components/Header";
+import Subscribe from "../components/Subscribe";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
@@ -101,6 +102,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <Subscribe />
       </section>
     </main>
   );

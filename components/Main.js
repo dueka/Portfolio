@@ -1,4 +1,5 @@
 import "../assets/styles.scss";
+
 export default function Main() {
   return (
     <main className="site-main">
