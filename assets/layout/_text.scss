@@ -1,0 +1,23 @@
+.title-text {
+  font: normal bold 50px/72px var(--roboto);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px var(--roboto);
+}
+
+.font-roboto {
+  font-family: var(--roboto);
+}
+
+button:focus,
+button:active button:hover.btn:active,
+.btnactive {
+  outline: 0px !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,32 @@
+.img-services {
+  // width: 10rem;
+  height: 10rem;
+}
+
+.services-img {
+  // width: 10rem;
+  // height: 10rem;
+}
+
+.site-main .services-area {
+  padding: 7rem 2rem;
+  background-color: #d84633;
+}
+.site-main .services-area .services-title {
+  padding: 0 14rem;
+}
+.site-main .services-area .services-title {
+  font-size: 35px;
+}
+
+.site-main > .services-area .services {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.site-main > .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
