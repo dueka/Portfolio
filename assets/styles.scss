@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../assets/layout/variables";
+@import "../assets/layout/banner";
+@import "../assets/layout/text";
+@import "../assets/layout/about";
+@import "../assets/layout/portfolio";
+@import "../assets/layout/services";
+@import "../assets/components/button";
+@import "../assets/components/footer";
+@import "../assets/components/subscribe";
+@import "../assets/components/responsive";
+
+.logo {
+  height: 3rem;
+}
+
+// .header_area .main-menu .navbar .navbar-brand {
+//   background-color: #88ccff;
+// }
+
+.header_area .main-menu .navbar {
+  background-color: #d84633;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: bold 500 10px/2px var(--roboto);
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
