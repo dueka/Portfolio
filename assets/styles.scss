@@ -7,6 +7,8 @@
 @import "../assets/layout/services";
 @import "../assets/components/button";
 @import "../assets/components/footer";
+@import "../assets/components/subscribe";
+@import "../assets/components/responsive";
 
 .logo {
   height: 3rem;
@@ -17,7 +19,7 @@
 // }
 
 .header_area .main-menu .navbar {
-  background-color: #993300;
+  background-color: #d84633;
 }
 
 .header_area .main-menu .nav-item .nav-link {

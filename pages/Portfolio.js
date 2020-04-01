@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../assets/styles.scss";
 
 export default function Portfolio() {
@@ -34,8 +35,7 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="title py-4">
-                  <h4 className="text-uppercase">Design</h4>
-                  <span className="text-secondary">Latest, Portfolio</span>
+                  <h4 className="text-uppercase">Web Development</h4>
                 </div>
               </div>
             </div>
@@ -50,8 +50,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="title py-4">
-                <h4 className="text-uppercase">Design</h4>
-                <span className="text-secondary">Latest, Portfolio</span>
+                <h4 className="text-uppercase">Web Development</h4>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 element-item latest">
@@ -65,13 +64,13 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="title py-4">
-                <h4 className="text-uppercase">Design</h4>
-                <span className="text-secondary">Latest, Portfolio</span>
+                <h4 className="text-uppercase">Content Creation </h4>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

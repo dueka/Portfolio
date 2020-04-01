@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../assets/styles.scss";
 
 export default function Services() {
@@ -21,14 +22,14 @@ export default function Services() {
                 <div className="services">
                   <div className="services-img text-center py-4">
                     <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585400919/8b62a-hire_full-stack-developer_4_ov3klo.jpg"
+                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585704713/cropped-Lambda-School-Dice_a9kfwa.png"
                       alt="Services"
                       className="img-services"
                     />
                   </div>
                   <div className="card-body text-center">
                     <h5 className="card-title text-uppercase font-roboto">
-                      Web Developer
+                      Full-Stack Web Developer
                     </h5>
                     <p className="card-text text-secondary">
                       Some example text
@@ -41,7 +42,7 @@ export default function Services() {
                 <div className="services">
                   <div className="services-img text-center py-4">
                     <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585401369/8b62a-hire_full-stack-developer_4_jtyvaq.jpg"
+                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585704814/cropped-Lambda-School-Dice_b4eyqr.png"
                       alt="Services"
                       className="img-services"
                     />
@@ -51,7 +52,9 @@ export default function Services() {
                       SAP HANA Developer
                     </h5>
                     <p className="card-text text-secondary">
-                      Certified HANA Developer on the SAP HANA Database
+                      HANA Developer on the SAP HANA Database maximizing the
+                      speed and strength of the SAP HANA Database to build
+                      business applications.
                     </p>
                   </div>
                 </div>
@@ -61,27 +64,7 @@ export default function Services() {
                 <div className="services">
                   <div className="services-img text-center py-4">
                     <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585401724/download_txhmsm.jpg"
-                      alt="Services"
-                      className="img-services"
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title text-uppercase font-roboto">
-                      SAP ABAP Developer
-                    </h5>
-                    <p className="card-text text-secondary">
-                      Certified HANA Developer on the SAP HANA Database
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div className="services">
-                  <div className="services-img text-center py-4">
-                    <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585401809/cropped-Lambda-School-Dice_wr0d1j.png"
+                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585704973/cropped-Lambda-School-Dice_hyhuqe.png"
                       alt="Services"
                       className="img-services"
                     />
@@ -91,7 +74,7 @@ export default function Services() {
                       Content Creator
                     </h5>
                     <p className="card-text text-secondary">
-                      Certified HANA Developer on the SAP HANA Database
+                      I enjoy creating contents for brands and businesses.
                     </p>
                   </div>
                 </div>
@@ -100,6 +83,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
