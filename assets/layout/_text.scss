@@ -10,8 +10,8 @@
 p.para {
   color: var(--text-color);
   font: normal 500 16px/25px var(--roboto);
-  @include respond(tab-land-pro) {
-    margin-top: 5rem;
+  @include respond(big-desktop) {
+    // margin-bottom: 15rem;
   }
 }
 
@@ -19,7 +19,7 @@ p.para {
   color: var(--text-color);
   font: normal 500 16px/25px var(--roboto);
   @include respond(tab-land) {
-    margin-top: -6rem;
+    margin-top: 3rem;
   }
 }
 

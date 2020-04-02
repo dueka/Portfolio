@@ -51,20 +51,14 @@ export default function Main() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 banner-image">
-              <img
-                src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585246317/8b62a-hire_full-stack-developer_4_fm5x8i.jpg"
-                alt="banner-img"
-                className="img-fluid"
-              />
-            </div>
-            <div className="banner_para">
+            <div className="col-lg-6 col-md-12 banner_para">
               <p className="para">
                 I am a Software Engineer and Content Creator based in Lagos,
                 Nigeria. I am a team player with experience working with teams
                 remotely. Passionate about creating the perfect User Experience.
               </p>
             </div>
+            <div className="banner_para"></div>
           </div>
         </div>
       </section>
