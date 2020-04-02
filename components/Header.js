@@ -35,9 +35,6 @@ const Header = () => (
         <Nav.Link href="/portfolio" className="nav-link">
           Portfolio
         </Nav.Link>
-        <Nav.Link href="/contact" className="nav-link">
-          Contact
-        </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
