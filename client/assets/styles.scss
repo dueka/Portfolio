@@ -1,0 +1,74 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../assets/layout/variables";
+@import "../assets/layout/banner";
+@import "../assets/layout/text";
+@import "../assets/layout/about";
+@import "../assets/layout/portfolio";
+@import "../assets/layout/services";
+@import "../assets/components/button";
+@import "../assets/components/footer";
+@import "../assets/components/subscribe";
+@import "../assets/components/responsive";
+@import "../assets/components/animations";
+@import "../assets/abstracts/mixins";
+.logo {
+  height: 3rem;
+}
+
+.header_area {
+  background-color: #d84633;
+}
+
+.header_area .nav-link {
+  font: bold 500 10px/2px var(--roboto);
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .nav-link:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: black;
+}
+
+.title-text {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+
+.banner-image {
+  animation-name: moveInBottom;
+  animation-duration: 3s;
+  @include respond(phone) {
+    height: 13rem;
+    margin-bottom: 6.9rem;
+  }
+  @include respond(tab-port) {
+    height: 10rem;
+    margin-bottom: 10.2rem;
+  }
+}
+
+.banner-image > img {
+  @include respond(tab-land) {
+    height: 28rem;
+    width: 10rem;
+    margin-top: -5rem;
+  }
+}
+
+.color_span {
+  color: black;
+}
+
+.color_a {
+  color: black;
+}
+
+.color_a:hover {
+  color: white;
+}
