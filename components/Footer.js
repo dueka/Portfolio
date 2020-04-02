@@ -27,28 +27,15 @@ export default function About() {
         </div>
         <div className="social text-center">
           <h5 className="text-uppercase">Follow Me</h5>
-          <a href="#">
-            <FontAwesomeIcon
-              size="1x"
-              className="font-awesome"
-              icon={faFacebook}
-            />
-          </a>
-          <a href="#">
-            <FontAwesomeIcon
-              size="1x"
-              className="font-awesome"
-              icon={faGoogle}
-            />
-          </a>
-          <a href="#">
+
+          <a href="https://github.com/dueka/">
             <FontAwesomeIcon
               size="1x"
               className="font-awesome"
               icon={faGithubAlt}
             />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/duekanem">
             <FontAwesomeIcon
               size="1x"
               className="font-awesome"

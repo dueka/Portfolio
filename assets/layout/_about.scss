@@ -1,5 +1,9 @@
+@import "../abstracts/mixins";
 .site-main .about-area {
   background-color: #d84633;
+  @include respond(phone) {
+    width: 50rem;
+  }
 }
 
 .site-main .about-area .about-title h2 > span {
@@ -12,6 +16,16 @@
 .site-main .about-area .about-title .paragraph > p {
   padding: 0.4rem 0;
   color: whitesmoke;
+  @include respond(phone) {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 48rem;
+  }
+  @include respond(tab-port) {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 46rem;
+  }
 }
 
 .site-main .brand-area {
@@ -33,6 +47,11 @@
   height: 100px;
   cursor: pointer;
   transition: transform 0.4s ease;
+  @include respond(phone) {
+    float: left;
+    position: relative;
+    z-index: 10;
+  }
 }
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
   width: 5rem;

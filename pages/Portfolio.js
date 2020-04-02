@@ -46,6 +46,7 @@ export default function Portfolio() {
                     src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585403396/8b62a-hire_full-stack-developer_5_a4l6nf.jpg"
                     alt="portfolio"
                     className="project-image"
+                    href="http://hackhunt.co/"
                   />
                 </div>
               </div>
