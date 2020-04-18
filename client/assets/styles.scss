@@ -5,11 +5,14 @@
 @import "../assets/layout/about";
 @import "../assets/layout/portfolio";
 @import "../assets/layout/services";
+@import "../assets/components/navbar";
+@import "../assets/components/welcome";
 @import "../assets/components/button";
 @import "../assets/components/footer";
 @import "../assets/components/subscribe";
 @import "../assets/components/responsive";
 @import "../assets/components/animations";
+
 @import "../assets/abstracts/mixins";
 .logo {
   height: 3rem;
