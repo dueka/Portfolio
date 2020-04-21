@@ -1,24 +1,29 @@
 import "../assets/styles.scss";
 import axios from "axios";
+import About from "./About";
+import Services from "./Services";
+import Footer from "../components/Footer";
+import Slider from "../components/Slider";
+import Images from "../images";
 
 export default function Main() {
   function viewHandler() {
     axios
       .get(`http://localhost:4000/pdf`, {
-        responseType: "blob"
+        responseType: "blob",
         //Force to receive data in a Blob Format
       })
-      .then(response => {
+      .then((response) => {
         //Create a Blob from the PDF Stream
         const file = new Blob([response.data], {
-          type: "application/pdf"
+          type: "application/pdf",
         });
         //Build a URL from the file
         const fileURL = URL.createObjectURL(file);
         //Open the URL on new Window
         window.open(fileURL);
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
       });
   }
@@ -62,6 +67,11 @@ export default function Main() {
           </div>
         </div>
       </section>
+      <About />
+      <Services />
+      <Slider images={Images} />
+
+      <Footer />
     </main>
   );
 }

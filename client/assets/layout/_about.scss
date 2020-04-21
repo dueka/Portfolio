@@ -1,6 +1,6 @@
 @import "../abstracts/mixins";
 .site-main .about-area {
-  background-color: #d84633;
+  // background-color: #d84633;
   @include respond(phone) {
     width: 50rem;
   }
@@ -10,12 +10,13 @@
   display: block;
   font: normal bold 49px/60px var(--roboto);
   letter-spacing: 5px;
-  color: whitesmoke;
+  color: var(--text-color);
 }
 
 .site-main .about-area .about-title .paragraph > p {
   padding: 0.4rem 0;
-  color: whitesmoke;
+  color: var(--text-color);
+
   @include respond(phone) {
     font-size: 1.5rem;
     letter-spacing: 2px;

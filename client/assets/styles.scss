@@ -10,13 +10,17 @@
 @import "../assets/components/subscribe";
 @import "../assets/components/responsive";
 @import "../assets/components/animations";
+@import "../assets/components/navbar";
+@import "../assets/components/slider";
+@import "../assets/components/navigation";
 @import "../assets/abstracts/mixins";
+
 .logo {
   height: 3rem;
 }
 
 .header_area {
-  background-color: #d84633;
+  // background-color: #d84633;
 }
 
 .header_area .nav-link {
@@ -24,15 +28,16 @@
   font-family: var(--roboto);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--title-color);
+  color: var(--text-color);
+  background: var(--text-color);
 }
 
 .header_area .nav-link:hover {
-  background: var(--gradient-color);
+  background: var(--text-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: black;
+  color: var(--text-color);
 }
 
 .title-text {

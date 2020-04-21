@@ -5,7 +5,6 @@ import "../assets/styles.scss";
 export default function Portfolio() {
   return (
     <main className="site-main">
-      <Header />
       <section className="project-area">
         <div className="container">
           <div className="row">
@@ -71,7 +70,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-      <Footer />
     </main>
   );
 }

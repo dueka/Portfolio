@@ -1,6 +1,7 @@
 @import "../abstracts/mixins";
 .title-text {
   font: normal bold 50px/72px var(--roboto);
+  color: var(--text-color);
 }
 
 .text-uppercase {

@@ -1,15 +1,14 @@
 import "../assets/styles.scss";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import Navigation from "../components/Navigation";
 
 export default function About() {
   return (
     <main className="site-main">
+      <Navigation />
       <section className="about-area">
-        <Header />
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -109,8 +108,6 @@ export default function About() {
           </div>
         </section>
       </section>
-
-      <Footer />
     </main>
   );
 }
