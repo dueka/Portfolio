@@ -1,4 +1,5 @@
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 import { useDarkMode } from "../components/hooks/useDarkMode";
 const Header = () => {
   const [darkMode, setDarkMode] = useDarkMode(false);
@@ -7,7 +8,7 @@ const Header = () => {
     setDarkMode(!darkMode);
   };
   return (
-    <Navbar expand="lg" className="header_area">
+    <Navbar fixed="top" expand="lg" className="header_area">
       <Navbar.Brand href="#home">
         {" "}
         <a className="navbar-brand" href="#">
@@ -30,24 +31,53 @@ const Header = () => {
         <div className="mr-auto"></div>
 
         <Nav className="mr-auto">
-          <Nav.Link href="/" className="nav-link">
-            Home
-          </Nav.Link>
-          <Nav.Link href="/about" className="nav-link">
-            About
-          </Nav.Link>
-          <Nav.Link href="/services" className="nav-link">
-            Services
-          </Nav.Link>
-          <Nav.Link href="/portfolio" className="nav-link">
-            Portfolio
-          </Nav.Link>
-          <div className="dark-mode__toggle">
+          <Link
+            activeClass="active"
+            to="main"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">Home</div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">About</div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">Services</div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="slider"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">Portfolio</div>
+          </Link>
+
+          {/* <div className="dark-mode__toggle">
             <div
               onClick={toggleMode}
               className={darkMode ? "toggle toggled" : "toggle"}
             />
-          </div>
+          </div> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

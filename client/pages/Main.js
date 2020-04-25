@@ -28,7 +28,7 @@ export default function Main() {
       });
   }
   return (
-    <main className="site-main">
+    <main className="site-main" id="main">
       <section className="site-banner">
         <div className="container">
           <div className="row">
@@ -40,11 +40,9 @@ export default function Main() {
                 <div className="d-flex flex-row flex-wrap">
                   <button
                     type="button"
-                    className="btn button-primary-button mr-4 text-uppercase"
+                    className="btn button-secondary-button mr-4 text-uppercase"
                   >
-                    <a href="mailto:ekanemd@live.com" className="color_a">
-                      Hire Me
-                    </a>
+                    <a href="mailto:ekanemd@live.com">Hire Me</a>
                   </button>
                   <button
                     type="button"
@@ -73,5 +71,51 @@ export default function Main() {
 
       <Footer />
     </main>
+    // <div className="container">
+    //   <nav className="navbar">
+    //     <ul>
+    //       <li>
+    //         <a href="">Home</a>
+    //       </li>
+    //       <li>
+    //         <a href="">About</a>
+    //       </li>
+    //       <li>
+    //         <a href="">Service</a>
+    //       </li>
+    //       <li>
+    //         <a href="">Contact</a>
+    //       </li>
+    //     </ul>
+    //   </nav>
+    //   <section id="home">
+    //     <h1>Welcome to my site</h1>
+    //     <p>
+    //       Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae
+    //       ipsum cum totam dolorem temporibus!
+    //     </p>
+    //   </section>
+    //   <section id="about">
+    //     <h1>About</h1>
+    //     <p>
+    //       Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae
+    //       ipsum cum totam dolorem temporibus!
+    //     </p>
+    //   </section>
+    //   <section id="service">
+    //     <h1>Service</h1>
+    //     <p>
+    //       Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae
+    //       ipsum cum totam dolorem temporibus!
+    //     </p>
+    //   </section>
+    //   <section id="contact">
+    //     <h1>Contact</h1>
+    //     <p>
+    //       Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae
+    //       ipsum cum totam dolorem temporibus!
+    //     </p>
+    //   </section>
+    // </div>
   );
 }

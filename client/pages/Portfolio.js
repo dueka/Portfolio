@@ -4,7 +4,7 @@ import "../assets/styles.scss";
 
 export default function Portfolio() {
   return (
-    <main className="site-main">
+    <main>
       <section className="project-area">
         <div className="container">
           <div className="row">

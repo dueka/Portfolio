@@ -10,7 +10,7 @@ import {
 
 export default function Services() {
   return (
-    <main className="site-main">
+    <main id="services">
       <div className="services-section">
         <div className="inner-width">
           <h1 className="section-title">Our Services</h1>

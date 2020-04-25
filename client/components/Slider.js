@@ -12,7 +12,7 @@ const Slider = ({ images }) => {
   );
 
   return (
-    <div className="slider" ref={slideImage}>
+    <div className="slider" ref={slideImage} id="slider">
       <div className="slider--content">
         <button onClick={goToPreviousSlide} className="slider__btn-left">
           <i className="fas fa-angle-left">B</i>

@@ -6,8 +6,8 @@ import Navigation from "../components/Navigation";
 
 export default function About() {
   return (
-    <main className="site-main">
-      <Navigation />
+    <main id="about">
+      {/* <Navigation /> */}
       <section className="about-area">
         <div className="container-fluid">
           <div className="row">
