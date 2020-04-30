@@ -1,4 +1,4 @@
-import "../assets/styles.scss";
+// import "../assets/styles.scss";
 import axios from "axios";
 import About from "./About";
 import Services from "./Services";
@@ -35,7 +35,7 @@ export default function Main() {
             <div className="col-lg-6 col-md-12 site-title">
               <h3 className="title-text">Hey</h3>
               <h1 className="title-text text-uppercase">I am DUE</h1>
-              <h4 className="title-text text-uppercase">Full Stack Engineer</h4>
+              <h4 className="title-text text-uppercase">Software Craftsman</h4>
               <div className="site-buttons">
                 <div className="d-flex flex-row flex-wrap">
                   <button

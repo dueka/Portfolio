@@ -18,9 +18,9 @@ const Slider = ({ images }) => {
           <i className="fas fa-angle-left">B</i>
         </button>
         <div className="slider--feature">
-          <h1 className="feature--title">Projects</h1>
+          <h1 className="feature--title">My Completed Projects</h1>
           <p ref={slideText} className="feature--text"></p>
-          <button className="feature__btn">Get started</button>
+          {/* <button className="feature__btn">Get started</button> */}
         </div>
         <button onClick={goToNextSlide} className="slider__btn-right">
           <i className="fas fa-angle-right">N</i>

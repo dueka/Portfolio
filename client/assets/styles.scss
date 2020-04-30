@@ -22,6 +22,10 @@
 .site-main {
   padding-top: 7rem;
   background-color: #100f0b;
+  @include respond(tab-port) {
+    // top: 4.5rem;
+    width: 50rem;
+  }
 }
 .header_area .nav-link {
   font: bold 500 10px/2px var(--roboto);

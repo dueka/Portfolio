@@ -1,17 +1,12 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
-import { useDarkMode } from "../components/hooks/useDarkMode";
+
 const Header = () => {
-  const [darkMode, setDarkMode] = useDarkMode(false);
-  const toggleMode = (e) => {
-    e.preventDefault();
-    setDarkMode(!darkMode);
-  };
   return (
     <Navbar fixed="top" expand="lg" className="header_area">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand>
         {" "}
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand">
           <img
             src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585246633/8b62a-hire_full-stack-developer_4_fysdjg.jpg"
             alt="logo"
@@ -71,13 +66,6 @@ const Header = () => {
           >
             <div className="nav-link">Portfolio</div>
           </Link>
-
-          {/* <div className="dark-mode__toggle">
-            <div
-              onClick={toggleMode}
-              className={darkMode ? "toggle toggled" : "toggle"}
-            />
-          </div> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

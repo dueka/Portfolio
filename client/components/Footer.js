@@ -1,10 +1,10 @@
-import "../assets/styles.scss";
+// import "../assets/styles.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithubAlt,
   faTwitter,
-  faLinkedin
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faGithubAlt, faTwitter, faLinkedin);

@@ -44,8 +44,8 @@
   display: inline-block;
   width: 70px;
   height: 70px;
-  border: 3px solid #82ccdd;
-  color: #82ccdd;
+  border: 3px solid #e40001;
+  color: #e40001;
   transform: rotate(45deg);
   margin-bottom: 30px;
   margin-top: 16px;
@@ -59,7 +59,7 @@
 }
 
 .service-box:hover .service-icon {
-  background: #82ccdd;
+  background: #e40001;
   color: #ddd;
 }
 

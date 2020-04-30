@@ -1,8 +1,8 @@
-import "../assets/styles.scss";
+// import "../assets/styles.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import Navigation from "../components/Navigation";
+// import Navigation from "../components/Navigation";
 
 export default function About() {
   return (

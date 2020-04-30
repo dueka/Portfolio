@@ -11,7 +11,7 @@ const useSlider = (slideImage, slideText, images) => {
             rgba(34, 34, 34, 0.4),
             rgba(68, 68, 68, 0.4)
             ), url(${images[0].src})`;
-    slideText.current.innerHTML = images[0].text;
+    slideText.current = images[0].text;
   };
 
   const handleSlide = (slide) => {
@@ -20,7 +20,7 @@ const useSlider = (slideImage, slideText, images) => {
             rgba(34, 34, 34, 0.4),
             rgba(68, 68, 68, 0.4)
           ), url(${images[slide - 1].src})`;
-    slideText.current.innerHTML = images[slide - 1].text;
+    slideText.current = images[slide - 1].text;
     animateSlide(slideImage);
   };
 
@@ -53,7 +53,7 @@ const useSlider = (slideImage, slideText, images) => {
           rgba(34, 34, 34, 0.4),
           rgba(68, 68, 68, 0.4)
           ),url(${images[slideCounter + 1].src})`;
-    slideText.current.innerHTML = images[slideCounter + 1].text;
+    slideText.current = images[slideCounter + 1].text;
     slideCounter++;
     animateSlide(slideImage);
   };
