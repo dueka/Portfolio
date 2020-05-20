@@ -1,89 +1,120 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import "../assets/styles.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPaintBrush,
+  faCode,
+  faBrush,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faAccessibleIcon,
+  faAcquisitionsIncorporated,
+  faAlgolia,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Services() {
   return (
-    <main className="site-main">
-      <Header />
-      <section className="services-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center services-title">
-              <h1 className="text-uppercase title-text">Services Offered</h1>
-              <p className="para">
-                Providing solutions to buisnesses and companies
-              </p>
+    <main id="services">
+      <div className="services-section">
+        <div className="inner-width">
+          <h1 className="section-title">Interests</h1>
+          <div className="border"></div>
+          <div className="services-container">
+            <div className="service-box">
+              <div className="service-icon">
+                <FontAwesomeIcon
+                  size="1x"
+                  className="font-awesome"
+                  icon={faPaintBrush}
+                />
+              </div>
+              <div className="section-title">UI / UX Design</div>
+              <div className="service-desc">
+                Understanding the User Mindset and what a user wants when they
+                use a product. Thinking through the product development process
+                to make sure i create the best possible experience.
+              </div>
             </div>
-          </div>
-          <div className="container services-list">
-            <div className="row">
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div className="services">
-                  <div className="services-img text-center py-4">
-                    <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585704713/cropped-Lambda-School-Dice_a9kfwa.png"
-                      alt="Services"
-                      className="img-services"
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title text-uppercase font-roboto">
-                      Full-Stack Web Developer
-                    </h5>
-                    <p className="card-text text-secondary">
-                      Some example text
-                    </p>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div className="services">
-                  <div className="services-img text-center py-4">
-                    <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585704814/cropped-Lambda-School-Dice_b4eyqr.png"
-                      alt="Services"
-                      className="img-services"
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title text-uppercase font-roboto">
-                      SAP HANA Developer
-                    </h5>
-                    <p className="card-text text-secondary">
-                      HANA Developer on the SAP HANA Database maximizing the
-                      speed and strength of the SAP HANA Database to build
-                      business applications.
-                    </p>
-                  </div>
-                </div>
+            <div className="service-box">
+              <div className="service-icon">
+                <FontAwesomeIcon
+                  size="1x"
+                  className="font-awesome"
+                  icon={faBrush}
+                />
               </div>
+              <div className="section-title">Frontend</div>
+              <div className="service-desc">
+                Understanding UX principles and best practices and implementing
+                that in code to produce aesthetic pleasing interfaces. I create
+                Interfaces with HTML, CSS, Javascript and use the React Library.
+              </div>
+            </div>
 
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div className="services">
-                  <div className="services-img text-center py-4">
-                    <img
-                      src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585704973/cropped-Lambda-School-Dice_hyhuqe.png"
-                      alt="Services"
-                      className="img-services"
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title text-uppercase font-roboto">
-                      Content Creator
-                    </h5>
-                    <p className="card-text text-secondary">
-                      I enjoy creating contents for brands and businesses.
-                    </p>
-                  </div>
-                </div>
+            <div className="service-box">
+              <div className="service-icon">
+                <FontAwesomeIcon
+                  size="1x"
+                  className="font-awesome"
+                  icon={faCode}
+                />
+              </div>
+              <div className="section-title">Backend</div>
+              <div className="service-desc">
+                Writing server-side code to serve my User Interfaces and i do
+                this with Express and create my databases with Knex with
+                PostgreSQL as my relational database.
+              </div>
+            </div>
+
+            <div className="service-box">
+              <div className="service-icon">
+                <FontAwesomeIcon
+                  size="1x"
+                  className="font-awesome"
+                  icon={faAccessibleIcon}
+                />
+              </div>
+              <div className="section-title">TESTING</div>
+              <div className="service-desc">
+                Writing tests for my components and my user interface is one the
+                key principles i learnt from Lambda School and i have worked in
+                implenting TDD principles in my development.
+              </div>
+            </div>
+
+            <div className="service-box">
+              <div className="service-icon">
+                <FontAwesomeIcon
+                  size="1x"
+                  className="font-awesome"
+                  icon={faAcquisitionsIncorporated}
+                />
+              </div>
+              <div className="section-title">SAP HANA</div>
+              <div className="service-desc">
+                Interested in the inner workings of ERP Software and how i can
+                build the techincal know-how to serve large corportations and
+                harnessing the power of SAP HANA to build such applications.
+              </div>
+            </div>
+
+            <div className="service-box">
+              <div className="service-icon">
+                <FontAwesomeIcon
+                  size="1x"
+                  className="font-awesome"
+                  icon={faAlgolia}
+                />
+              </div>
+              <div className="section-title">bLOCKCHAIN</div>
+              <div className="service-desc">
+                I enjoy building applications on the Ethereum Blockchain, but
+                not fully profecient yet.
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <Footer />
+      </div>
     </main>
   );
 }

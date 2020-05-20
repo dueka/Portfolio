@@ -1,63 +1,75 @@
-import Link from "next/link";
-import "../assets/styles.scss";
+import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 
-const Header = () => (
-  <div>
-    <header className="header_area">
-      <div className="main-menu">
-        <nav className="navbar navbar-expand-lg navbar-light">
-          <a className="navbar-brand" href="#">
-            <img
-              src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585246633/8b62a-hire_full-stack-developer_4_fysdjg.jpg"
-              alt="logo"
-              className="logo"
-            />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+const Header = () => {
+  return (
+    <Navbar fixed="top" expand="lg" bg="warning" className="header_area">
+      <Navbar.Brand>
+        {" "}
+        <a className="navbar-brand">
+          <img
+            src="https://res.cloudinary.com/ibkrice-com/image/upload/v1585246633/8b62a-hire_full-stack-developer_4_fysdjg.jpg"
+            alt="logo"
+            className="logo"
+          />
+        </a>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+        <div className="mr-auto"></div>
+
+        <Nav className="mr-auto">
+          <Link
+            activeClass="active"
+            to="main"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <div className="mr-auto"></div>
-            <ul className="navbar-nav">
-              <li className="nav-item active">
-                <a className="nav-link" href="/">
-                  Home <span className="sr-only">(current)</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/about">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/Services">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/portfolio">
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-  </div>
-);
+            <div className="nav-link">Home</div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">About</div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">Services</div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="slider"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-link">Portfolio</div>
+          </Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+};
 
 export default Header;

@@ -1,5 +1,7 @@
+@import "../abstracts/mixins";
 .title-text {
   font: normal bold 50px/72px var(--roboto);
+  color: var(--text-color);
 }
 
 .text-uppercase {
@@ -9,10 +11,23 @@
 p.para {
   color: var(--text-color);
   font: normal 500 16px/25px var(--roboto);
+  @include respond(big-desktop) {
+    // margin-bottom: 15rem;
+  }
+}
+
+.banner_para {
+  color: var(--text-color);
+  font: normal 500 16px/25px var(--roboto);
+  @include respond(tab-land) {
+    margin-top: 3rem;
+  }
 }
 
 .font-roboto {
   font-family: var(--roboto);
+  border: 3px solid #e40001;
+  border-radius: 4px;
 }
 
 button:focus,

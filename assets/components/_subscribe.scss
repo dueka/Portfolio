@@ -1,20 +1,20 @@
-.site-main .subscribe-us-area .subscribe {
+.subscribe-us-area .subscribe {
   background: url("https://res.cloudinary.com/ibkrice-com/image/upload/v1585681234/softwaredev_hgaohv.png")
     no-repeat;
   padding: 10rem 0;
   margin: 3rem auto;
 }
-.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+.subscribe-us-area .subscribe .subscribe-title h4 {
   font: normal 700 30px/30px var(--roboto);
   color: whitesmoke;
 }
 
-.site-main .subscribe-us-area .subscribe .subscribe-title p {
+.subscribe-us-area .subscribe .subscribe-title p {
   color: whitesmoke;
   padding: 1rem 4rem 4rem;
 }
 
-.site-main .subscribe-us-area .subscribe form .col-input-textbox input {
+.subscribe-us-area .subscribe form .col-input-textbox input {
   width: 400px;
   padding: 1.5rem 1rem;
   border: 1px solid whitesmoke;
@@ -23,16 +23,11 @@
   font: normal 500 17px/20px var(--roboto);
 }
 
-.site-main
-  .subscribe-us-area
-  .subscribe
-  form
-  .col-input-textbox
-  input::placeholder {
+.subscribe-us-area .subscribe form .col-input-textbox input::placeholder {
   color: whitesmoke;
 }
 
-.site-main .subscribe-us-area .subscribe form .btn-submit button {
+.subscribe-us-area .subscribe form .btn-submit button {
   background: whitesmoke;
   color: #000;
   padding: 0.7rem 2rem;

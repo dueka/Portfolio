@@ -9,37 +9,75 @@
 @import "../assets/components/footer";
 @import "../assets/components/subscribe";
 @import "../assets/components/responsive";
+@import "../assets/components/animations";
+@import "../assets/components/navbar";
+@import "../assets/components/slider";
+@import "../assets/components/navigation";
+@import "../assets/abstracts/mixins";
 
 .logo {
   height: 3rem;
 }
 
-// .header_area .main-menu .navbar .navbar-brand {
-//   background-color: #88ccff;
-// }
-
-.header_area .main-menu .navbar {
-  background-color: #d84633;
+.site-main {
+  padding-top: 7rem;
+  background-color: #100f0b;
+  @include respond(tab-port) {
+    // top: 4.5rem;
+    width: 50rem;
+  }
 }
-
-.header_area .main-menu .nav-item .nav-link {
+.header_area .nav-link {
   font: bold 500 10px/2px var(--roboto);
   font-family: var(--roboto);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--title-color);
+  color: var(--text-color);
+  background: var(--text-color);
 }
 
-.header_area .main-menu .navbar-nav .active a {
-  background: var(--gradient-color);
+.header_area .nav-link:hover {
+  background: var(--text-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  background-color: var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav a:hover {
-  background: var(--gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.title-text {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+
+.banner-image {
+  animation-name: moveInBottom;
+  animation-duration: 3s;
+  @include respond(phone) {
+    height: 13rem;
+    margin-bottom: 6.9rem;
+  }
+  @include respond(tab-port) {
+    height: 10rem;
+    margin-bottom: 10.2rem;
+  }
+}
+
+.banner-image > img {
+  @include respond(tab-land) {
+    height: 28rem;
+    width: 10rem;
+    margin-top: -5rem;
+  }
+}
+
+.color_span {
+  color: white;
+}
+
+.color_a {
+  color: white;
+}
+
+.color_a:hover {
+  color: white;
 }

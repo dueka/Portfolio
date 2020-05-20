@@ -1,4 +1,4 @@
-import "../assets/styles.scss";
+// import "../assets/styles.scss";
 
 export default function About() {
   return (
