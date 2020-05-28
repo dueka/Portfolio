@@ -13,7 +13,11 @@
 @import "../assets/components/navbar";
 @import "../assets/components/slider";
 @import "../assets/components/navigation";
+@import "../assets/components/card";
+
 @import "../assets/abstracts/mixins";
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;1,700&display=swap");
 
 .logo {
   height: 3rem;
@@ -21,27 +25,33 @@
 
 .site-main {
   padding-top: 7rem;
-  background-color: #100f0b;
+  background-color: #ffcf7a;
+  height: 42rem;
+  border-radius: 3rem 12rem 12rem;
+  border: 3px solid springgreen;
   @include respond(tab-port) {
     // top: 4.5rem;
     width: 50rem;
   }
 }
 .header_area .nav-link {
-  font: bold 500 10px/2px var(--roboto);
-  font-family: var(--roboto);
+  font: bold 500 10px/2px var(--balsamiq);
+
+  font-family: "Balsamiq Sans", cursive;
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--text-color);
-  background: var(--text-color);
+  color: transparent;
+  background: transparent;
 }
 
 .header_area .nav-link:hover {
-  background: var(--text-color);
+  // background: var(--text-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-color: var(--title-color);
+  background-color: #7bb076;
+  // color: #7bb076;
+  cursor: pointer;
 }
 
 .title-text {

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.card_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ebf5fc;
+}
+
+.card_container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 110rem;
+}
+.card_container .card {
+  width: 32rem;
+  margin: 20px;
+  padding: 40px 30px;
+  background: #ebf5fc;
+  border-radius: 40px;
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card_container .card:hover {
+  box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.5),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card_container .card .imgBx {
+  position: relative;
+  text-align: center;
+}
+
+.card_container .card .imgBx img {
+  max-width: 12rem;
+}
+
+.card_container .card .contentBx {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card_container .card .contentBx h2 {
+  color: #7bb076;
+  font-weight: 700;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+.card_container .card .contentBx p {
+  color: #7bb076;
+}
+
+.card_container .card .contentBx a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 40px;
+  color: #7bb076;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+    4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card_container .card .contentBx a:hover {
+  box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_container .card a:hover span {
+  display: block;
+}
+
+.card_container .card:hover .imgBx,
+.card_container .card:hover .contantBx {
+  transform: scale(0.98);
+}

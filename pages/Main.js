@@ -2,7 +2,7 @@ import axios from "axios";
 import About from "./About";
 import Services from "./Services";
 import Footer from "../components/Footer";
-import Slider from "../components/Slider";
+import Card from "../components/Card";
 import Images from "../images";
 
 export default function Main() {
@@ -27,48 +27,55 @@ export default function Main() {
       });
   }
   return (
-    <main className="site-main" id="main">
-      <section className="site-banner">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 site-title">
-              <h3 className="title-text">Hey</h3>
-              <h1 className="title-text text-uppercase">I am DUE</h1>
-              <h4 className="title-text text-uppercase">Software Craftsman</h4>
-              <div className="site-buttons">
-                <div className="d-flex flex-row flex-wrap">
-                  <button
-                    type="button"
-                    className="btn button-secondary-button mr-4 text-uppercase"
-                  >
-                    <a href="mailto:ekanemd@live.com">Hire Me</a>
-                  </button>
-                  <button
-                    type="button"
-                    className="btn button-secondary-button text-uppercase"
-                    onClick={viewHandler}
-                  >
-                    GET CV
-                  </button>
+    <div>
+      <main className="site-main" id="main">
+        <section className="site-banner">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 banner_para">
+                <h3 className="title-text">Hi There</h3>
+                <p className="para">
+                  Software Craftsman and Content Creator. You desire to give
+                  your user a great user experience or development on your idea,
+                  from ideation to project delivery. I enjoy such challenges.
+                  Hit me up and let's get talking.
+                </p>
+                <div className="site-buttons">
+                  <div className="d-flex flex-row flex-wrap">
+                    <button
+                      type="button"
+                      className="btn button-secondary-button mr-4 text-uppercase"
+                    >
+                      <a href="mailto:ekanemd@live.com">Hire Me</a>
+                    </button>
+                    <button
+                      type="button"
+                      className="btn button-secondary-button text-uppercase"
+                      onClick={viewHandler}
+                    >
+                      GET CV
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-12 banner_para">
-              <p className="para">
-                I am a Software Engineer and Content Creator based in Lagos,
-                Nigeria. I am a team player with experience working with teams
-                remotely. Passionate about creating the perfect User Experience.
-              </p>
-            </div>
-            <div className="banner_para"></div>
-          </div>
-        </div>
-      </section>
-      <About />
-      <Services />
-      <Slider images={Images} />
 
-      <Footer />
-    </main>
+              <div className="col-lg-6 col-md-12 site-title">
+                <img
+                  src="https://res.cloudinary.com/ibkrice-com/image/upload/v1590623379/myAvatar_l4hjz7.png"
+                  alt="avatar"
+                  className="title-text"
+                />
+                {/* <h1 className="title-text text-uppercase">I am DUE</h1> */}
+                {/* <h4 className="title-text text-uppercase">Software Craftsman</h4> */}
+              </div>
+
+              <div className="banner_para"></div>
+            </div>
+          </div>
+          <Card />
+          <Footer />
+        </section>
+      </main>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <Navbar fixed="top" expand="lg" bg="warning" className="header_area">
+    <Navbar fixed="top" expand="lg" className="header_area">
       <Navbar.Brand>
         {" "}
         <a className="navbar-brand">

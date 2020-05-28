@@ -1,6 +1,6 @@
 @import "../abstracts/mixins";
 .title-text {
-  font: normal bold 50px/72px var(--roboto);
+  font: normal bold 50px/72px var(--balsamiq);
   color: var(--text-color);
 }
 
@@ -10,7 +10,8 @@
 
 p.para {
   color: var(--text-color);
-  font: normal 500 16px/25px var(--roboto);
+  font: normal 500 16px/25px var(--balsamiq);
+  font-size: 1.5rem;
   @include respond(big-desktop) {
     // margin-bottom: 15rem;
   }
@@ -18,14 +19,14 @@ p.para {
 
 .banner_para {
   color: var(--text-color);
-  font: normal 500 16px/25px var(--roboto);
+  font: normal 500 16px/25px var(--balsamiq);
   @include respond(tab-land) {
     margin-top: 3rem;
   }
 }
 
 .font-roboto {
-  font-family: var(--roboto);
+  font-family: var(--balsamiq);
   border: 3px solid #e40001;
   border-radius: 4px;
 }
