@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import "../node_modules/swiper/scss/functions";
 @import "../assets/layout/variables";
 @import "../assets/layout/banner";
 @import "../assets/layout/text";
@@ -13,8 +14,9 @@
 @import "../assets/components/navbar";
 @import "../assets/components/slider";
 @import "../assets/components/navigation";
+@import "../assets/components/portfolio";
+@import "../assets/components/contacts";
 @import "../assets/components/card";
-
 @import "../assets/abstracts/mixins";
 
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;1,700&display=swap");
@@ -22,16 +24,20 @@
 .logo {
   height: 3rem;
 }
-
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 .site-main {
   padding-top: 7rem;
-  background-color: #ffcf7a;
+  background-color: var(--primary-color2);
   height: 42rem;
-  border-radius: 3rem 12rem 12rem;
+  border-radius: 3rem 10rem 12rem;
   border: 3px solid springgreen;
   @include respond(tab-port) {
-    // top: 4.5rem;
-    width: 50rem;
+    border-radius: 3rem 2rem 12rem;
+    border: 3px solid springgreen;
+    width: 60rem;
   }
 }
 .header_area .nav-link {
@@ -49,9 +55,26 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-color: #7bb076;
-  // color: #7bb076;
+  background-color: var(--text-color);
+  // color: var(--text-color);
   cursor: pointer;
+}
+
+.avatar {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+  @include respond(tab-port) {
+    width: 15rem;
+  }
+}
+
+.site-title {
+  @include respond(tab-port) {
+    display: flex;
+    justify-content: flex-end;
+    right: 15rem;
+    bottom: 3rem;
+  }
 }
 
 .title-text {

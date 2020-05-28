@@ -1,6 +1,6 @@
 import axios from "axios";
 import About from "./About";
-import Services from "./Services";
+import Portfolio from "./Portfolio";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 import Images from "../images";
@@ -33,12 +33,12 @@ export default function Main() {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-12 banner_para">
-                <h3 className="title-text">Hi There</h3>
+                <h3 className="title-text">Hi, I'm Due,</h3>
                 <p className="para">
-                  Software Craftsman and Content Creator. You desire to give
-                  your user a great user experience or development on your idea,
-                  from ideation to project delivery. I enjoy such challenges.
-                  Hit me up and let's get talking.
+                  a Software craftsman and content creator. Do you desire to
+                  give your users a great user experience or desire to develop
+                  your web ideas? I'm the man for the job. Hit me up and let's
+                  get talking.
                 </p>
                 <div className="site-buttons">
                   <div className="d-flex flex-row flex-wrap">
@@ -51,9 +51,11 @@ export default function Main() {
                     <button
                       type="button"
                       className="btn button-secondary-button text-uppercase"
-                      onClick={viewHandler}
+                      // onClick={viewHandler}
                     >
-                      GET CV
+                      <a href="https://drive.google.com/open?id=1qtC9TwOoU5-kFK0MV8F6tUFkqifQClip">
+                        GET CV
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -63,16 +65,15 @@ export default function Main() {
                 <img
                   src="https://res.cloudinary.com/ibkrice-com/image/upload/v1590623379/myAvatar_l4hjz7.png"
                   alt="avatar"
-                  className="title-text"
+                  className="avatar"
                 />
-                {/* <h1 className="title-text text-uppercase">I am DUE</h1> */}
-                {/* <h4 className="title-text text-uppercase">Software Craftsman</h4> */}
               </div>
 
               <div className="banner_para"></div>
             </div>
           </div>
           <Card />
+          <Portfolio />
           <Footer />
         </section>
       </main>

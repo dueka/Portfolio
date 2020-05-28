@@ -12,8 +12,9 @@ p.para {
   color: var(--text-color);
   font: normal 500 16px/25px var(--balsamiq);
   font-size: 1.5rem;
-  @include respond(big-desktop) {
-    // margin-bottom: 15rem;
+  @include respond(tab-port) {
+    font-size: 2rem;
+    line-height: 1.2em;
   }
 }
 

@@ -1,13 +1,13 @@
 footer.footer-area {
-  padding: 2.9rem;
+  padding: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  transform: translateY(-50%);
 }
 
 .middle {
   position: absolute;
   // top: 50%;
-  transform: translateY(-50%);
   // width: 60%;
   // text-align: center;
 }

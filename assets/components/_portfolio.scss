@@ -1,0 +1,98 @@
+.swiper-container {
+  width: 100%;
+  cursor: grab;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: auto;
+}
+.swiper-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+}
+
+.swiper-wrapper .swiper-slider {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover !important;
+  background: var(--primary-color);
+  box-sizing: border-box;
+  border-radius: 2rem 2rem 2rem;
+  min-height: 8vh;
+  width: 22rem;
+  margin: 10px;
+  padding: 40px 30px;
+  border: 3px solid var(--primary-color);
+  font-family: "Balsamiq Sans";
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    6px 6px 20px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 1.5em;
+    text-decoration: underline #7bb076;
+    margin-top: 1em;
+    color: #7bb076;
+    font-family: "Balsamiq Sans";
+  }
+  h1:hover {
+    color: #ffcf7a;
+    cursor: pointer;
+  }
+  p {
+    color: #7bb076;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 3em;
+    font-family: "Balsamiq Sans";
+    font-size: 16px;
+  }
+}
+
+.swiper-container .swiper-slider:hover {
+  box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.5),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+  transform: scale(1.05);
+}
+
+.slide1 {
+  background: url("https://res.cloudinary.com/thstag/image/upload/c_scale,h_200,w_300/v1590700042/shefa_fwqd0x.jpg");
+  height: 12rem;
+  h1:before {
+    border-left: 1px solid #fff;
+    right: 0;
+  }
+}
+
+.slide2 {
+  background: url("https://res.cloudinary.com/thstag/image/upload/c_scale,h_200,w_300/v1590700725/ibk_yuuxlr.jpg");
+  height: 12rem;
+  h1:before {
+    border-left: 1px solid #fff;
+    right: 0;
+  }
+}
+
+.slide3 {
+  background: url("https://res.cloudinary.com/thstag/image/upload/c_scale,h_200,w_300/v1590701071/hackathon_jcd2im.jpg");
+  height: 12rem;
+  h1:before {
+    border-left: 1px solid #fff;
+    right: 0;
+  }
+}
+
+.slide4 {
+  background: url("https://res.cloudinary.com/thstag/image/upload/c_scale,h_200,w_300/v1590702706/euafrica_guti8a.jpg");
+  height: 12rem;
+  h1:before {
+    border-left: 1px solid #fff;
+    right: 0;
+  }
+}

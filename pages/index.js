@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import Main from "./Main";
 import "../assets/styles.scss";
+import "jquery/dist/jquery.min.js";
 export default function Index() {
   useEffect(() => {
     return () => {
@@ -28,7 +29,7 @@ export default function Index() {
       {/* <Layout /> */}
       <Header sticky={isSticky} />
       <Main />
-      {/* </Layout> */}
+      {/* <Portfolio /> */}
     </Fragment>
   );
 }

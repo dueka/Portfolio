@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Card() {
   return (
     <div className="card_body" id="about">
@@ -19,7 +18,7 @@ export default function Card() {
               problem you are facing, exploring the benefits of technology to
               solving problems is my desire.
             </p>
-            <a href="#">
+            <a href="/contacts">
               <span>Read More</span>
             </a>
           </div>

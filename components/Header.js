@@ -46,7 +46,7 @@ const Header = () => {
           >
             <div className="nav-link">About</div>
           </Link>
-          <Link
+          {/* <Link
             activeClass="active"
             to="services"
             spy={true}
@@ -55,7 +55,7 @@ const Header = () => {
             duration={500}
           >
             <div className="nav-link">Services</div>
-          </Link>
+          </Link> */}
           <Link
             activeClass="active"
             to="slider"
