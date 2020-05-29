@@ -69,7 +69,7 @@ const Header = () => {
     //     </Nav>
     //   </Navbar.Collapse>
     // </Navbar>
-    <div className="nav_body" fixed="top">
+    <div className="nav_body">
       <div className="nav_container">
         <nav>
           <input type="checkbox" id="nav" className="hidden" />

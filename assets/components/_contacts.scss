@@ -1,9 +1,96 @@
 .contact-body {
-  font-size: 5rem;
+  font-size: 1rem;
   background: var(--primary-color);
+  font-family: "Balsamiq Sans";
+  padding: 1rem;
+  @include respond(tab-port) {
+    font-size: 1.2rem;
+  }
 }
 
 .contact-container {
   width: 80%;
   margin: 50px auto;
+}
+
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: var(--primary-color2);
+  color: #fff;
+}
+h1 {
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.contact-container p {
+  margin-bottom: 4 0px;
+  color: var(--text-color);
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: var(--text-color);
+}
+
+button {
+  background: var(--text-color);
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-left h3 {
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-right h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+tr td {
+  padding-top: 20px;
+  color: var(--text-color);
 }

@@ -72,6 +72,7 @@ export default function Main() {
           </div>
           <Card />
           <Portfolio />
+          <Contacts />
           <Footer />
         </section>
       </main>
