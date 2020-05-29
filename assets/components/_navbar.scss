@@ -41,6 +41,7 @@
   // background: url("https://res.cloudinary.com/thstag/image/upload/v1590784047/IMG_-komjsz_sgupy0.jpg");
   background-position: center;
   background-size: cover;
+  position: absolute;
 }
 
 nav {
@@ -108,7 +109,7 @@ nav ul li a {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: var(--primary-color);
+    background: transparent;
     opacity: 0;
     transition: all 0.2s ease;
   }
