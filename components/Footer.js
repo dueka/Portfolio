@@ -1,12 +1,9 @@
-import { FaFacebook, FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
 export default function About() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="footer-area">
       <div className="middle">
-        <a className="footer_btn" href="https://www.facebook.com/ekanemd">
-          <FaFacebook className="react_icon" />
-        </a>
         <a className="footer_btn" href="https://twitter.com/duekanem">
           <FaTwitter className="react_icon" />
         </a>

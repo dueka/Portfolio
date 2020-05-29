@@ -21,9 +21,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;1,700&display=swap");
 
-.logo {
-  height: 3rem;
-}
+// .logo {
+//   height: 3rem;
+// }
 a {
   text-decoration: none;
   color: var(--text-color);
@@ -31,7 +31,7 @@ a {
 .site-main {
   padding-top: 7rem;
   background-color: var(--primary-color2);
-  height: 42rem;
+  // height: 50rem;
   border-radius: 3rem 10rem 12rem;
   border: 3px solid springgreen;
   @include respond(tab-port) {
@@ -42,7 +42,6 @@ a {
 }
 .header_area .nav-link {
   font: bold 500 10px/2px var(--balsamiq);
-
   font-family: "Balsamiq Sans", cursive;
   text-transform: uppercase;
   padding: 1.7rem;

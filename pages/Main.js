@@ -1,10 +1,8 @@
 import axios from "axios";
-import About from "./About";
 import Portfolio from "./Portfolio";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
-import Images from "../images";
-
+import Contacts from "./Contacts";
 export default function Main() {
   function viewHandler() {
     axios

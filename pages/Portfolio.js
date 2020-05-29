@@ -35,7 +35,7 @@ export default function Portfolio() {
             <a href="https://shefa-luxe.now.sh/">
               <h1>Shefa Luxe</h1>
             </a>
-            <p>Beautiful Minimalist Shopping Application</p>
+            <p>Minimalist Shopping Application</p>
             <p>
               Built with: HTML5 &#183; JavaScripT &#183; Node&#183;
               MongoDB&#183;{" "}

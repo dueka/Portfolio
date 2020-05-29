@@ -1,3 +1,9 @@
-.contact_body {
+.contact-body {
+  font-size: 5rem;
   background: var(--primary-color);
+}
+
+.contact-container {
+  width: 80%;
+  margin: 50px auto;
 }

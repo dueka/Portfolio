@@ -56,10 +56,16 @@
   font-weight: 700;
   font-size: 1.4em;
   letter-spacing: 2px;
+  @include respond(tab-port) {
+    font-size: 2em;
+  }
 }
 
 .card_container .card .contentBx p {
   color: #7bb076;
+  @include respond(tab-port) {
+    font-size: 2em;
+  }
 }
 
 .card_container .card .contentBx a {
@@ -72,6 +78,9 @@
   text-decoration: none;
   box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
     4px 4px 15px rgba(0, 0, 0, 0.1);
+  @include respond(tab-port) {
+    font-size: 2em;
+  }
 }
 
 .card_container .card .contentBx a:hover {

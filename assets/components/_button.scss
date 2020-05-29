@@ -37,6 +37,9 @@
   background: wheat;
   background-clip: padding-box;
   transition: background 0.7s ease;
+  @include respond(tab-port) {
+    display: none;
+  }
 }
 
 .button-secondary-button:hover {
