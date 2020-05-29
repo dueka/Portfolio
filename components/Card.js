@@ -18,9 +18,9 @@ export default function Card() {
               problem you are facing, exploring the benefits of technology to
               solving problems is my desire.
             </p>
-            <a href="/contacts">
+            {/* <a href="/contacts">
               <span>Read More</span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="card">
@@ -37,9 +37,9 @@ export default function Card() {
               am interested in writing code that solves problems and helps make
               the World, a better and more interesting place to live in.
             </p>
-            <a href="#">
+            {/* <a href="#">
               <span>Read More</span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="card">
@@ -52,9 +52,9 @@ export default function Card() {
           <div className="contentBx">
             <h2>Deploy</h2>
             <p>Houston, We Have Lift Off!</p>
-            <a href="#">
+            {/* <a href="#">
               <span>Read More</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
