@@ -35,8 +35,7 @@ export default function Main() {
                 <p className="para">
                   a Software craftsman and content creator. Do you desire to
                   give your users a great user experience or desire to develop
-                  your web ideas? I'm the man for the job. Hit me up and let's
-                  get talking.
+                  your web ideas?. Hit me up and let's get talking.
                 </p>
                 <div className="site-buttons">
                   <div className="d-flex flex-row flex-wrap">
