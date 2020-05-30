@@ -4,7 +4,8 @@
   font-family: "Balsamiq Sans";
   padding: 1rem;
   @include respond(tab-port) {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
   }
 }
 

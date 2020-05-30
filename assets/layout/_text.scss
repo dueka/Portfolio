@@ -9,20 +9,14 @@
 }
 
 p.para {
+  // display: flex;
+
   color: var(--text-color);
   font: normal 500 16px/25px var(--balsamiq);
   font-size: 1.5rem;
   @include respond(tab-port) {
     font-size: 2rem;
     line-height: 1.2em;
-  }
-}
-
-.banner_para {
-  color: var(--text-color);
-  font: normal 500 16px/25px var(--balsamiq);
-  @include respond(tab-land) {
-    margin-top: 3rem;
   }
 }
 

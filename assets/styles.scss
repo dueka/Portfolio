@@ -1,9 +1,9 @@
-@import "~bootstrap/scss/bootstrap";
 @import "../node_modules/swiper/scss/functions";
 @import "../assets/layout/variables";
 @import "../assets/layout/banner";
 @import "../assets/layout/text";
 @import "../assets/layout/about";
+@import "../assets/layout/main";
 @import "../assets/layout/portfolio";
 @import "../assets/layout/services";
 @import "../assets/components/button";
@@ -20,96 +20,8 @@
 @import "../assets/abstracts/mixins";
 
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
 
 // .logo {
 //   height: 3rem;
 // }
-a {
-  text-decoration: none;
-  color: var(--text-color);
-}
-.site-main {
-  padding-top: 7rem;
-  background-color: var(--primary-color2);
-  // height: 50rem;
-  border-radius: 3rem 10rem 12rem;
-  border: 3px solid springgreen;
-  @include respond(tab-port) {
-    border-radius: 3rem 2rem 12rem;
-    border: 3px solid springgreen;
-    width: 60rem;
-  }
-}
-.header_area .nav-link {
-  font: bold 500 10px/2px var(--balsamiq);
-  font-family: "Balsamiq Sans", cursive;
-  text-transform: uppercase;
-  padding: 1.7rem;
-  color: transparent;
-  background: transparent;
-}
-
-.header_area .nav-link:hover {
-  // background: var(--text-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-color: var(--text-color);
-  // color: var(--text-color);
-  cursor: pointer;
-}
-
-.avatar {
-  animation-name: moveInLeft;
-  animation-duration: 3s;
-  @include respond(tab-port) {
-    width: 15rem;
-  }
-}
-
-.site-title {
-  @include respond(tab-port) {
-    display: flex;
-    justify-content: flex-end;
-    right: 15rem;
-    bottom: 3rem;
-  }
-}
-
-.title-text {
-  animation-name: moveInLeft;
-  animation-duration: 3s;
-}
-
-.banner-image {
-  animation-name: moveInBottom;
-  animation-duration: 3s;
-  @include respond(phone) {
-    height: 13rem;
-    margin-bottom: 6.9rem;
-  }
-  @include respond(tab-port) {
-    height: 10rem;
-    margin-bottom: 10.2rem;
-  }
-}
-
-.banner-image > img {
-  @include respond(tab-land) {
-    height: 28rem;
-    width: 10rem;
-    margin-top: -5rem;
-  }
-}
-
-.color_span {
-  color: white;
-}
-
-.color_a {
-  color: white;
-}
-
-.color_a:hover {
-  color: white;
-}

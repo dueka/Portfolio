@@ -28,52 +28,52 @@ export default function Main() {
     <div>
       <main className="site-main" id="main">
         <section className="site-banner">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-md-12 banner_para">
-                <h3 className="title-text">Hi, I'm Due,</h3>
-                <p className="para">
-                  a Software craftsman and content creator. Do you desire to
-                  give your users a great user experience or desire to develop
-                  your web ideas?. Hit me up and let's get talking.
-                </p>
-                <div className="site-buttons">
-                  <div className="d-flex flex-row flex-wrap">
-                    <button
-                      type="button"
-                      className="btn button-secondary-button mr-4 text-uppercase"
-                    >
-                      <a href="mailto:ekanemd@live.com">Hire Me</a>
-                    </button>
-                    <button
-                      type="button"
-                      className="btn button-secondary-button text-uppercase"
-                      // onClick={viewHandler}
-                    >
-                      <a href="https://drive.google.com/open?id=1qtC9TwOoU5-kFK0MV8F6tUFkqifQClip">
-                        GET CV
-                      </a>
-                    </button>
-                  </div>
-                </div>
+          {/* <div className="container"> */}
+          {/* <div className="row"> */}
+          <h3 className="title-text">Hi, I'm Due,</h3>
+          <div className="main-box">
+            <div className="main-left">
+              <p className="para">
+                a Software craftsman and content creator. I bring productivity
+                to organisations using technology. I enjoy learning new
+                technologies and their applications to problems faced by
+                businesses and people around the world. I have worked with
+                development teams remotely to develop projects i feel would be
+                beneficial to the society such as my euafrica marketplace.
+                <br />
+                <br />
+              </p>
+              <p className="para">
+                In my spare time, i like to listen to music and think on how to
+                apply technology to solving problems facing Africa. Hit me up
+                and let's get talking.
+              </p>{" "}
+              <div className="site-buttons">
+                <button type="button" className="button-primary-button">
+                  <a href="mailto:ekanemd@live.com">Message Me</a>
+                </button>
+                <br />
+                <button type="button" className="button-secondary-button">
+                  <a href="https://drive.google.com/open?id=1qtC9TwOoU5-kFK0MV8F6tUFkqifQClip">
+                    GET CV
+                  </a>
+                </button>
               </div>
-
-              <div className="col-lg-6 col-md-12 site-title">
+            </div>
+            <div className="main-right">
+              <div className="avatar">
                 <img
                   src="https://res.cloudinary.com/ibkrice-com/image/upload/v1590623379/myAvatar_l4hjz7.png"
                   alt="avatar"
-                  className="avatar"
                 />
               </div>
-
-              <div className="banner_para"></div>
             </div>
           </div>
-          <Card />
-          <Portfolio />
-          <Contacts />
-          <Footer />
         </section>
+        <Card />
+        <Portfolio />
+        <Contacts />
+        <Footer />
       </main>
     </div>
   );
