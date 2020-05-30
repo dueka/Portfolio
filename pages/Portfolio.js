@@ -55,7 +55,7 @@ export default function Portfolio() {
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <div className="slide2"></div>
-            <a href="https://ibkrice.com/">
+            <a href="https://ibkrice.due.now.sh/">
               <h1>IBKRice</h1>
             </a>
             <p>E-Commerce Shopping Application</p>
