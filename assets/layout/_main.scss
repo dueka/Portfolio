@@ -2,16 +2,21 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
+.site-banner {
+  width: 80%;
+  margin: 25px auto;
+}
 .site-main {
   padding-top: 7rem;
   background-color: var(--primary-color2);
-  // height: 50rem;
-  border-radius: 3rem 10rem 12rem;
+  height: 50rem;
+  border-radius: 5rem 5rem 10rem 10rem;
   border: 3px solid springgreen;
   @include respond(tab-port) {
-    border-radius: 3rem 2rem 12rem;
+    border-radius: 5rem 5rem 10rem 10rem;
     border: 3px solid springgreen;
     width: 60rem;
+    height: 90rem;
   }
 }
 .header_area .nav-link {

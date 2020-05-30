@@ -28,8 +28,6 @@ export default function Main() {
     <div>
       <main className="site-main" id="main">
         <section className="site-banner">
-          {/* <div className="container"> */}
-          {/* <div className="row"> */}
           <h3 className="title-text">Hi, I'm Due,</h3>
           <div className="main-box">
             <div className="main-left">

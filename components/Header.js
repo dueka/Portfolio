@@ -1,5 +1,3 @@
-import { Link } from "react-scroll";
-
 const Header = () => {
   return (
     <div className="nav_body">
@@ -22,42 +20,9 @@ const Header = () => {
           </div>
           <div className="nav-wrapper">
             <ul>
-              <li>
-                <Link
-                  activeClass="active"
-                  to="main"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  activeClass="active"
-                  to="slider"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  Portfolio
-                </Link>
-              </li>
+              <li>Home</li>
+              <li>About</li>
+              <li>Portfolio</li>
             </ul>
           </div>
         </nav>
