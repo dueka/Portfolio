@@ -26,7 +26,7 @@ export default function Card() {
         <div className="card">
           <div className="imgBx">
             <img
-              src="https://res.cloudinary.com/ibkrice-com/image/upload/v1590624567/code_rl3a88.png"
+              src="https://res.cloudinary.com/ibkrice-com/image/upload/v1591304787/code_qoumpr.png"
               alt=""
             />
           </div>

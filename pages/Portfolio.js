@@ -35,8 +35,11 @@ export default function Portfolio() {
             <a href="https://shefa-luxe.now.sh/">
               <h1>Shefa Luxe</h1>
             </a>
-            <p>Minimalist Shopping Application</p>
             <p>
+              <p>
+                {" "}
+                <strong> Minimalist Shopping Application </strong>
+              </p>
               Built with: HTML5 &#183; JavaScripT &#183; Node&#183;
               MongoDB&#183;{" "}
             </p>
@@ -55,13 +58,16 @@ export default function Portfolio() {
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <div className="slide2"></div>
-            <a href="https://ibkrice.due.now.sh/">
+            <a href="https://ibkricefullstack.herokuapp.com/">
               <h1>IBKRice</h1>
             </a>
-            <p>E-Commerce Shopping Application</p>
             <p>
+              <p>
+                {" "}
+                <strong> E-Commerce Application</strong>
+              </p>
               Built with: React&#183; Redux&#183; Node&#183; MongoDB&#183;
-              Jest&#183;
+              Jest&#183; Heroku&#183;
             </p>
             <div>
               <p>
@@ -78,11 +84,13 @@ export default function Portfolio() {
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <div className="slide3"></div>
-            <a href="https://hackathon-portal.now.sh/">
-              <h1>Hackathon Web</h1>
-            </a>
-            <p>Handle all stages of Hackathon prep and management.</p>
+            <a href="https://hackathon-portal.now.sh/"></a>
+            <h1>Hackathon Web</h1>
             <p>
+              <p>
+                {" "}
+                <strong> Hackathon prep and management. </strong>
+              </p>
               Built with: React &#183; Redux &#183; Ant Design&#183; Node&#183;
               Jest&#183; PostgreSQL&#183;{" "}
             </p>
@@ -104,11 +112,17 @@ export default function Portfolio() {
             <a href="https://euafrica.now.sh/">
               <h1>EUAfrica</h1>
             </a>
+
             <p>
-              Bridging the gap between Africa and Europe with the power of
-              Trade.
+              <p>
+                {" "}
+                <strong>
+                  Bridging the gap between Africa and Europe with the power of
+                  Trade.
+                </strong>
+              </p>
+              Built with: React&#183; CSS &#183; Node&#183;
             </p>
-            <p>Built with: React&#183; CSS &#183; Node&#183;</p>
             <div>
               <p>
                 <FaLock />
