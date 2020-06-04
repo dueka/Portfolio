@@ -3,7 +3,6 @@ export default function Contact() {
     <div className="contact-body">
       <div className="contact-container">
         <h1>Connect With Due</h1>
-        <p>Would respond to your enquiries in a timely manner. </p>
         <div className="contact-box">
           <div className="contact-left">
             <h3>Send your request</h3>

@@ -99,6 +99,9 @@ nav ul li a {
   font-weight: 600;
   cursor: pointer;
 }
+.nav-wrapper {
+  display: none;
+}
 
 @media screen and (max-width: 864px) {
   .logo {
