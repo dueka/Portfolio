@@ -84,7 +84,7 @@ export default function Portfolio() {
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <div className="slide3"></div>
-            <a href="https://hackathon-portal.now.sh/"></a>
+            <a href="https://hackathon-portal-client.now.sh/"></a>
             <h1>Hackathon Web</h1>
             <p>
               <p>
