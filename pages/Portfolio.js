@@ -58,7 +58,7 @@ export default function Portfolio() {
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <div className="slide2"></div>
-            <a href="https://ibkricefullstack.herokuapp.com/">
+            <a href="ibkrice.com/">
               <h1>IBKRice</h1>
             </a>
             <p>
