@@ -52,7 +52,7 @@ export default function Main() {
                 </button>
                 <br />
                 <button type="button" className="button-secondary-button">
-                  <a href="https://drive.google.com/open?id=1qtC9TwOoU5-kFK0MV8F6tUFkqifQClip">
+                  <a href="https://drive.google.com/file/d/1Lx52_N_sB3zy0qAeiqsNuaweMuuKMyj0/view?usp=sharing">
                     GET CV
                   </a>
                 </button>

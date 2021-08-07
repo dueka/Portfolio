@@ -57,6 +57,32 @@ export default function Portfolio() {
             data-swiper-parallax={parallaxAmount}
             data-swiper-parallax-opacity={parallaxOpacity}
           >
+            <div className="slide5"></div>
+            <a href="http://cloudbankclientbucket.s3-website.eu-west-2.amazonaws.com/">
+              <h1>CloudBank</h1>
+            </a>
+            <p>
+              <p>
+                {" "}
+                <strong> Fintech Application</strong>
+              </p>
+              Built with: React&#183; Redux&#183; Node&#183; Laravel&#183;
+              Jest&#183; AWS&#183;
+            </p>
+            <div>
+              <p>
+                <FaLock />
+                authentication <FaMobile /> mobile
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="swiper-wrapper">
+          <div
+            className="swiper-slider"
+            data-swiper-parallax={parallaxAmount}
+            data-swiper-parallax-opacity={parallaxOpacity}
+          >
             <div className="slide2"></div>
             <a href="ibkrice.com/">
               <h1>IBKRice</h1>
