@@ -1,15 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react'
 
-import useSlider from "../components/hooks/useSlider";
+import useSlider from '../hooks/useSlider'
 
 const Slider = ({ images }) => {
-  const slideImage = useRef(null);
-  const slideText = useRef(null);
+  const slideImage = useRef(null)
+  const slideText = useRef(null)
   const { goToPreviousSlide, goToNextSlide } = useSlider(
     slideImage,
     slideText,
     images
-  );
+  )
 
   return (
     <div className="slider" ref={slideImage} id="slider">
@@ -27,7 +27,7 @@ const Slider = ({ images }) => {
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Slider;
+export default Slider
